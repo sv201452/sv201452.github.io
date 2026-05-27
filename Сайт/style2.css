@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+body{
+    margin:0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231380/ss_c5670846f373af070513f18274e95bf5c0211013.1920x1080.jpg?t=1764778328);
+    background-size: cover;
+}
+main{
+    height:90vh;
+    display: flex;
+    max-width:900px;
+    gap: 20px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
